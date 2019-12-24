@@ -1,4 +1,9 @@
+
+
 {
+"publishConfig": { "registry": "https://npm.pkg.github.com/" }
+
+
 	"name": "drawingboard.js",
 	"version": "0.4.6",
 	"devDependencies": {
