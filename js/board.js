@@ -74,7 +74,7 @@ DrawingBoard.Board = function(id, opts) {
 
 
 DrawingBoard.Board.defaultOpts = {
-	controls: ['Color', 'DrawingMode', 'Size', 'Navigation'],
+	controls: ['Color', 'DrawingMode', 'Size', 'Navigation', 'Download'],
 	controlsPosition: "top left",
 	color: "#000000",
 	size: 1,
@@ -82,7 +82,7 @@ DrawingBoard.Board.defaultOpts = {
 	eraserColor: "background",
 	fillTolerance: 100,
 	fillHack: true, //try to prevent issues with anti-aliasing with a little hack by default
-	webStorage: 'session',
+	webStorage: 'local',
 	droppable: false,
 	enlargeYourContainer: false,
 	errorMessage: "<p>It seems you use an obsolete browser. <a href=\"http://browsehappy.com/\" target=\"_blank\">Update it</a> to start drawing.</p>",
