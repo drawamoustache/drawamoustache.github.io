@@ -258,11 +258,6 @@
 			var transparentBoard = new DrawingBoard.Board('transparent-board', {
 				background: false,
 				controls: transparentBoardControls,
-				[
-					{ Size: { type: "range", min: 12, max: 42 } },
-					{ Navigation: { back: false, forward: false } },
-					'DrawingMode'
-				],
 				webStorage: 'local',
 				droppable: true //try dropping an image on the canvas!
 				
