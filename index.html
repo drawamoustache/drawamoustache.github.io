@@ -265,9 +265,11 @@
 			var transparentBoard = new DrawingBoard.Board('transparent-board', {
 				background: false,
 				controls: transparentBoardControls,
-				webStorage: loacal;
+				webStorage: local;
 			});
 			transparentBoard.reset({ background: true });
+			
+			transparentBoard.addControl('Download');
 		</script>
 		
 
