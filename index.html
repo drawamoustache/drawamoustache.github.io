@@ -65,7 +65,7 @@
 			}
 			#title-board .drawing-board-canvas-wrapper {
 				border: none;
-				margin: 0;
+				margin: 40px;
 			}
 		</style>
 
@@ -264,7 +264,8 @@
 			transparentBoardControls.splice(DrawingBoard.Board.defaultOpts.controls.indexOf('DrawingMode'), 1, { DrawingMode: { filler: false } });
 			var transparentBoard = new DrawingBoard.Board('transparent-board', {
 				background: false,
-				controls: transparentBoardControls
+				controls: transparentBoardControls,
+				webStorage: loacal;
 			});
 			transparentBoard.reset({ background: true });
 		</script>
